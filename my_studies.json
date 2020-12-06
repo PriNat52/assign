@@ -1,0 +1,28 @@
+{
+  "my_studies":[
+    {
+      "study":{
+        "Institute Name":"Prince School",
+        "Major":"Computer Science",
+        "Course":"High SChool",
+        "Year":2005
+      }
+    },
+    {
+      "study":{
+        "Institute Name":"Anna University",
+        "Major":"Computer Science",
+        "Course":"B.E",
+        "Year":2009
+      }
+    },
+    {
+        "study":{
+          "Institute Name":"Boaton University",
+          "Major":"Computer Science",
+          "Course":"M.Sc",
+          "Year":2021
+        }
+      }
+  ]
+}

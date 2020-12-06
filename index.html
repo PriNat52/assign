@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+		<meta name="description" content="width=device-width,initial_scale=1.0">
+		<title>Assignment_5</title>
+	</head>
+	<body>
+		<button id="button1">
+			click here
+		</button>
+		<script>
+		(function(){
+			var httpRequest;
+			document.getElementById('button1').onclick= function(){makeRequest(my_studies.json);
+			};
+
+			function makeRequest(url){
+				httpRequest = new XMLHttpRequest();
+				if(!httpRequest){
+					alert("Exit: Records cannot be found");
+					return false;
+				}
+				httpRequest.onreadystatechange= contents;
+				httpRequest.open('GET',url);
+				httpRequest.send();
+			}
+			function contents(){
+				if(httpRequest.readystate == XMLHttpRequest.DONE){
+					if (httpRequest.status === 200){
+						document.write(httpRequest.responseText);
+					}else{
+						alert("Found an Error with data.")
+					}
+				}
+			}
+		})();
+		</script>
+  </body>
+</html>
