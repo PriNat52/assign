@@ -1,0 +1,15 @@
+
+button{
+  padding: 10px;
+  color: rebeccapurple;
+  border-width: none;
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+button:hover{
+  text-decoration-style: wavy;
+  font-style: oblique;
+}
