@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   margin: 2em;
   background-image: url(photo.jpg);
-  backgroung-size: contain;
+  background-size: contain;
   font-size: 20px;
   color:black;
   margin-top: auto;
