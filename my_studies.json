@@ -10,7 +10,7 @@
     },
     {
       "study":{
-        "Institute Name":"Prince School",
+        "Name":"Prince School",
         "Major":"Computer Science",
         "Course":"High SChool",
         "Year":2005
@@ -18,15 +18,15 @@
     },
     {
       "study":{
-        "Institute Name":"Anna University",
+        "Name":"King University",
         "Major":"Computer Science",
         "Course":"B.E",
         "Year":2009
       }
     },
     {
-        "study":{
-          "Institute Name":"Boaton University",
+      "study":{
+          "Name":"Queen University",
           "Major":"Computer Science",
           "Course":"M.Sc",
           "Year":2021
