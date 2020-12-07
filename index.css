@@ -3,7 +3,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
-  background-color: url(photo-data.jpg);
+  background-image: url(photo-data.jpg);
   backgroung-size: cover;
   color:rebeccapurple;
   margin-top: auto;
