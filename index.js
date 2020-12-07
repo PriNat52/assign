@@ -25,11 +25,11 @@ $(document).ready(function(){
          console.log('inside 200');
          let myObj,txt="",x=0;
          myObj = JSON.parse(httpRequest.responseText).my_studies;
-         txt += "<table border='1'>"
+         txt += "<table border='1'>";
          for (x in myObj) {
            txt += "<tr><td>" + myObj[x].study.Name + "</td><td>"+ myObj[x].study.Major + "</td><td>" + myObj[x].study.Course + "</td><td>" + myObj[x].study.Year +"</td></tr>";
           }
-        txt += "</table>"    
+        txt += "</table>";
         document.getElementById("result").innerHTML = txt;
          
          }else{
@@ -37,7 +37,7 @@ $(document).ready(function(){
            alert("Error: at 200");
         }
        }else{
-         console.log("problem with ready state")
+         console.log("problem with ready state");
        }
    };
    
