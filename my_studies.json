@@ -1,5 +1,13 @@
 {
   "my_studies":[
+     {
+      "study":{
+        "Name":"Name",
+        "Major":"Major",
+        "Course":"Degree",
+        "Year":"Year"
+      }
+    },
     {
       "study":{
         "Institute Name":"Prince School",
