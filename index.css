@@ -1,14 +1,16 @@
 /* CSS files add styling */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: sans-serif;
   margin: 2em;
   background-image: url(photo.jpg);
-  backgroung-size: cover;
-  color:rebeccapurple;
+  backgroung-size: contain;
+  font-size: 20px;
+  color:brown;
   margin-top: auto;
   padding: 150px 50px 50px 150px;
 }
+
 td{
   padding: 10px;
   border: 2px solid black; 
